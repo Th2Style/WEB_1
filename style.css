@@ -1,0 +1,55 @@
+a {
+		color:black;
+		text-decoration:none;
+	}
+	 h1 {
+		font-size:60px;
+		text-align:left;
+		border-width:thin;
+		border-bottom: solid black;
+		padding:0px;
+		height:227px;
+		margin:0px;
+	}
+	#grid #main-left {
+		border-right:solid black;
+		width:250px;
+		margin:0px;
+		padding:20px;
+	}
+	li {
+		font-size:30px;
+		padding:20px;
+	}
+	#active {
+		color:red;
+	}
+	body {
+		margin: 0px;
+		margin-left: 10px;
+	}
+	#grid {
+		display: grid;
+		grid-template-columns: 250px 1fr;
+	}
+	#grid-light {
+		padding:100px;
+		padding-top:5px;
+	}
+	/*하단영역*/
+	#footer-grid {
+		border:10px solid black;
+		padding-left: 300px;
+		display: grid;
+		grid-template-columns: 200px 1fr;
+	}
+	#h3blue {
+		color:blue;
+	}
+  #footer #logo{
+		display: grid;
+		grid-template-columns: 250px;
+	}
+	#footer-light {
+		padding:100px;
+		padding-top:5px;
