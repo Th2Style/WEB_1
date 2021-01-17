@@ -1,26 +1,37 @@
 a {
-		color:black;
+		color:inherit;
 		text-decoration:none;
 	}
 	 h1 {
-		font-size:60px;
+		color:red;
+		font-size:30px;
 		text-align:left;
 		border-width:thin;
-		border-bottom: solid black;
+		border-bottom: solid gray;
 		padding:0px;
-		height:227px;
+		min-width: 1000px;
+		max-width: 2000px;
+		height:100px;
 		margin:0px;
 	}
-	#grid #main-left {
-		border-right:solid black;
+	#main-left {
+		border-right: solid black;
 		width:250px;
 		margin:0px;
-		padding:20px;
+		padding:15px;
+
 	}
-	li {
-		font-size:30px;
-		padding:20px;
+	#webleft {
+		color:rgb(56,40,127);
+
 	}
+	li  {
+		font-family:바탕;
+		font-size:25px;
+		padding:15px;
+		padding-bottom:30px;
+		list-style:none;
+		}
 	#active {
 		color:red;
 	}
@@ -33,15 +44,21 @@ a {
 		grid-template-columns: 250px 1fr;
 	}
 	#grid-light {
-		padding:100px;
+		border-left:solid black;
+		padding:5px 100px 60px 50px;
 		padding-top:5px;
+		background-color: #D3D3D3 ;
+
 	}
 	/*하단영역*/
 	#footer-grid {
-		border:10px solid black;
+
 		padding-left: 300px;
 		display: grid;
 		grid-template-columns: 200px 1fr;
+		border-top:solid black;
+		border-bottom:solid black;
+		background-color: ;
 	}
 	#h3blue {
 		color:blue;
